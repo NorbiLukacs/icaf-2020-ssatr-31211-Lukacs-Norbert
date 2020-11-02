@@ -1,0 +1,214 @@
+[
+  {
+    "locatie": {
+      "name": "P0",
+      "time": 0,
+      "jeton": 1
+    }
+  },
+  {
+    "locatie": {
+      "name": "P1",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P2",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P3",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P4",
+      "time": 0,
+      "jeton": 1
+    }
+  },
+  {
+    "locatie": {
+      "name": "P5",
+      "time": 0,
+      "jeton": 1
+    }
+  },
+  {
+    "locatie": {
+      "name": "P6",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P7",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P8",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P9",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P10",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P11",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P12",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "locatie": {
+      "name": "P13",
+      "time": 0,
+      "jeton": 0
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T0",
+      "time": 0,
+      "need": "P0",
+      "to": [
+        "P1",
+        "P2"
+      ]
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T1",
+      "time": 1,
+      "need": "P1",
+      "to": "P3"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T2",
+      "time": 0,
+      "need": "P2",
+      "to": "P5"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T3",
+      "time": 0,
+      "need": [
+        "P3",
+        "P4"
+      ],
+      "to": "P7"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T4",
+      "time": 0,
+      "need": [
+        "P5",
+        "P6"
+      ],
+      "to": "P8"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T5",
+      "time": 0,
+      "need": [
+        "P7",
+        "P6"
+      ],
+      "to": "P9"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T6",
+      "time": 0,
+      "need": [
+        "P4",
+        "P8"
+      ],
+      "to": "P10"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T7",
+      "time": 0,
+      "need": "P9",
+      "to": [
+        "P11",
+        "P6",
+        "P4"
+      ]
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T8",
+      "time": 0,
+      "need": "P10",
+      "to": [
+        "P12",
+        "P4",
+        "P6"
+      ]
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T9",
+      "time": 0,
+      "need": [
+        "P11",
+        "P12"
+      ],
+      "to": "P13"
+    }
+  },
+  {
+    "tranzitie": {
+      "name": "T10",
+      "time": 0,
+      "need": "P13",
+      "to": ""
+    }
+  }
+]
